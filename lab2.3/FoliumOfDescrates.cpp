@@ -32,11 +32,11 @@ double FOD::SideOfSquare() const{
 }
 
 double FOD::RadiusOfCurvatureTop() const{
-  return n/(8*sqrt(2));
+  return abs(n)/(8*sqrt(2));
 }
 
 double FOD::RadiusOfCurvatureKnot() const{
-  return n/2;
+  return abs(n)/2;
 }
 
 double FOD::AreaOfList() const{
