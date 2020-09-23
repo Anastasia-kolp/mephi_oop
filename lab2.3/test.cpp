@@ -51,8 +51,8 @@ TEST(Others_Methods, Parameters){
   FOD a2(-2);
   ASSERT_EQ(2/sqrt(2), a2.SideOfSquare());
   ASSERT_EQ(abs((2*sin(1)*cos(1))/(sin(1)*sin(1)*sin(1) + cos(1)*cos(1)*cos(1))), a2.DistanceInPolarSystem(1));
-  ASSERT_EQ(-0.25/sqrt(2), a2.RadiusOfCurvatureTop());
-  ASSERT_EQ(-1, a2.RadiusOfCurvatureKnot());
+  ASSERT_EQ(0.25/sqrt(2), a2.RadiusOfCurvatureTop());
+  ASSERT_EQ(1, a2.RadiusOfCurvatureKnot());
   ASSERT_EQ(2./3, a2.AreaOfList());
   ASSERT_EQ((2*sqrt(2)*sqrt(2*sqrt(3)-3))/3, a2.LoopDiameter());
   ASSERT_EQ(2/sqrt(6), a2.DistanceFromLoopDiameter());
