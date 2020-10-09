@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Dice.h"
+#include "../include/Dice.h"
 #include <stdexcept>
 
 namespace lab3{

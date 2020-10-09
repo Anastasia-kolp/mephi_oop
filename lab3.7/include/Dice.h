@@ -4,13 +4,15 @@
 
 namespace lab3{
 
+int rand_t();
+
 class DICE{
 private:
     int value[SIZE];
     int r_number;
 public:
     DICE();
-    DICE(int r_number);
+    explicit DICE(int r_number);
     DICE(const int *values, int r_number);
     int get_r_number() const;
     int get_sum_of_dice() const;
